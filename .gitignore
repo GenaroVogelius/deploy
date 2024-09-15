@@ -1,0 +1,4 @@
+.env.prod
+.env.prod.database
+.env.dev
+db.sqlite3
