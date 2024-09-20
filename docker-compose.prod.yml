@@ -27,7 +27,7 @@ services:
       - static_volume:/home/app/web/staticfiles
       - media_volume:/home/app/web/mediafiles
       - /etc/letsencrypt:/etc/letsencrypt
-      - /var/www/certbot:/var/www/certbot
+      - /home/vps-3503468-x.dattaweb.com/certbot:/var/www/certbot
     ports:
       - 1337:80
     depends_on:
