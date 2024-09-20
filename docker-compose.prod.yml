@@ -30,6 +30,7 @@ services:
       - /home/vps-3503468-x.dattaweb.com/certbot:/var/www/certbot
     ports:
       - 1337:80
+      - 443:443  # Para HTTPS
     depends_on:
       - web
 
